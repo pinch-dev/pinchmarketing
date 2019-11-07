@@ -68,16 +68,24 @@ CSS INDEX
   .mobile-padding {
     padding-top: 17px;
   }
+
+  .app-store-btn {
+    width: 220px;
+    text-align: center;
+    padding-bottom:20px;
+    margin-left: calc(50% - 110px);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .app-store-btn {
+    width: 220px;
+    text-align: center;
+  }
 }
 
 p.main-text {
   font-size: 19px;
-}
-
-.app-store-btn {
-  width: 220px;
-  text-align: center;
-  /* height */
 }
 
 a {
