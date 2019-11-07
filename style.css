@@ -303,6 +303,7 @@ input:-webkit-autofill:focus {
 
 .dark-color {
   color: #434345;
+  font-weight: bold;
 }
 
 .green-color {
@@ -451,7 +452,6 @@ input:-webkit-autofill:focus {
   background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
   padding-top: 15vh;
   color: #ffffff;
-  margin-bottom: 100px;
 }
 
 .home-area .mobile-image {

@@ -51,6 +51,11 @@
   .mobile {
     display: none !important;
   }
+  
+  .app-store-btn {
+    width: 220px;
+    text-align: center;
+  }
 }
 
 /* Medium Layout: 1280px. */
