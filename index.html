@@ -47,12 +47,10 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">
-            <div style="display: inline-block; font-weight: 700; letter-spacing: -1px; color: white; font-size: 50px">
+            <div class="dolla">
               $
             </div>
-            <div
-              style="display: inline-block; font-weight: 900; letter-spacing: -1px; color: white; font-size: 35px; margin-left: 5px;"
-            >
+            <div class="pinch mobile-padding">
               Pinch
             </div>
           </a>
@@ -76,7 +74,7 @@
     <header class="home-area overlay" id="home_page">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 hidden-sm col-md-5">
+          <div class="col-xs-12 col-md-5" style="text-align: center;">
             <figure class="mobile-image wow fadeInUp" data-wow-delay="0.2s">
               <img src="images/header-mobile.png" />
             </figure>
@@ -89,7 +87,7 @@
             <!-- <div>Be a free user for life, download before Oct 25</div> -->
             <div class="space-20"></div>
             <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-              <p>
+              <p class="main-text">
                 Track what you spend with Pinch. Watch your monthly expenses and income automatically map to
                 transactions that appear in your accounts.
               </p>
@@ -97,11 +95,11 @@
             <div class="space-20"></div>
             <a
               href="https://apps.apple.com/us/app/pinch-know-your-spending/id1466385159"
-              class="bttn-white sq wow fadeInUp"
+              class="bttn-white sq app-store-btn wow fadeInUp"
               data-wow-delay="0.8s"
               ><img src="images/apple-icon.png" alt="apple icon" /> App Store</a
             >
-            <a href="#" class="bttn-white sq wow fadeInUp" data-wow-delay="0.8s"
+            <a href="#" class="bttn-white sq app-store-btn wow fadeInUp" data-wow-delay="0.8s"
               ><img src="images/play-store-icon.png" alt="Play Store Icon" /> Android
               <span style="font-size: 10px">(soon)</span></a
             >
@@ -186,7 +184,7 @@
     </section>
     <!-- About-Area-End -->
     <!-- Gallery-Area -->
-    <section class="gallery-area section-padding" id="gallery_page">
+    <!-- <section class="gallery-area section-padding" id="gallery_page">
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 col-sm-6 gallery-slider">
@@ -225,10 +223,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Gallery-Area-End -->
     <!-- How-To-Use -->
-    <section class="section-padding">
+    <!-- <section class="section-padding">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-6">
@@ -277,7 +275,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- How-To-Use-End -->
     <!--Questions-Area -->
     <section id="questions_page" class="questions-area section-padding">
@@ -377,8 +375,8 @@
             <h3 class="green-color">Subscribe for More Features</h3>
             <div class="space-20"></div>
             <form id="mc-form">
-              <input type="email" class="control" placeholder="Enter your email" required="required" id="mc-email" />
-              <button class="bttn-white active" type="submit"><span class="lnr lnr-location"></span> Subscribe</button>
+              <input type="email" class="control" placeholder="Enter your email address" required="required" id="mc-email" />
+              <button class="bttn-white active" type="submit"><span class="lnr lnr-location"></span> Get started</button>
               <label class="mt10" for="mc-email"></label>
             </form>
           </div>
@@ -398,8 +396,11 @@
                 >&copy;<script>
                   document.write(new Date().getFullYear());
                 </script>
-                <a href="https://colorlib.com" target="_blank" style="color: #8790af">
-                  | Pinch (theme by colorlib)</a
+                <span style="color: #8790af">
+                  | Pinch
+                  <a href="https://colorlib.com" target="_blank" style="font-size: 12px; color: grey"
+                    >(theme by colorlib)</a
+                  ></span
                 ></span
               >
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
