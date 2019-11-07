@@ -64,26 +64,6 @@ CSS INDEX
   font-size: 50px;
 }
 
-@media screen and (max-width: 768px) {
-  .mobile-padding {
-    padding-top: 17px;
-  }
-
-  .app-store-btn {
-    width: 220px;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-left: calc(50% - 110px);
-  }
-}
-
-@media screen and (min-width: 769px) {
-  .app-store-btn {
-    width: 220px;
-    text-align: center;
-  }
-}
-
 p.main-text {
   font-size: 19px;
 }
@@ -468,7 +448,6 @@ input:-webkit-autofill:focus {
 .home-area {
   width: 100%;
   height: 100%;
-  min-height: 660px;
   background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
   padding-top: 15vh;
   color: #ffffff;
